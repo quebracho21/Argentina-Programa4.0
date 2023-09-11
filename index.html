@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mi Currículum Vitae</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mi Currículum Vitae</h1>
+        <nav>
+            <a href="#info-personal">Información Personal</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencia">Experiencia Laboral</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="left-column">
+            <section id="info-personal">
+                <h2>Información Personal</h2>
+                <form enctype="multipart/form-data">
+                    <ul>
+                        <li>
+                            <i class="fas fa-info-circle"></i> Nombre: Lucas Andrés Villagrán Berón
+                        </li>
+
+
+                        <li>
+                            <i class="fas fa-envelope"></i> Correo Electrónico: tecla92@hotmail.es
+                        </li>
+
+                        <li>
+                            <i class="fas fa-phone"></i> Teléfono: (+54) 3814196313
+                        </li>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            <label for="photo">Foto de Perfil:</label>
+                            <input type="file" id="photo" accept="image/*">
+                            <img id="photo-preview" src="#" alt="Foto de Perfil">
+                        </li>
+
+                        <li>
+                            <button onclick="mostrarInfoAdicional()">Mostrar Info Adicional</button>
+                            <p class="hidden-info">"Soy un apasionado programador con amplios conocimientos
+                                en tecnología y la
+                                creación de soluciones innovadoras. Me complace anunciar que he obtenido el
+                                título de Técnico Superior en Programación y Desarrollo de Software, lo cual
+                                demuestra mi dedicación y habilidades en esta área.
+                                Durante mi formación, he adquirido experiencia en diversos lenguajes de
+                                programación, como C y C#, y he desarrollado competencias en programación full
+                                stack, con un enfoque especializado en el Frontend. Además, poseo conocimientos
+                                sólidos en Python y estoy continuamente actualizando mis habilidades en nuevas
+                                tecnologías y frameworks.
+                                Estoy emocionado por encontrar una oportunidad en un entorno de trabajo
+                                profesional y colaborativo, donde pueda aplicar mis habilidades y contribuir al
+                                éxito de la empresa. Estoy seguro de que mi pasión por la programación y mi
+                                constante deseo de aprendizaje me permitirán aportar soluciones creativas y
+                                eficientes.
+                                Agradezco la consideración y espero poder formar parte de un equipo dinámico
+                                que valore la excelencia y la innovación en el desarrollo de software."
+                            </p>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+
+            <section id="formacion">
+                <h2>Formación</h2>
+                <ul>
+                    <li>Tec. Superior En Programación y Desarrollo de Soft:</li>
+                    <li>Tecnología / Informática</li>
+                    <li>Instituto Superior de Educación Tecnológica, Domingo Garcia 47 (Av. Sáenz Peña y Las Piedras),
+                        Mayo 2019 - Junio 2023</li>
+                </ul>
+            </section>
+
+            <section id="redes">
+                <ul class="social-icons">
+                    <li>
+                        <a href="http://www.linkedin.com/in/lucas-andrés-villagran-beron-455220222">
+                            <i class="fab fa-linkedin" style="color: #0050db;"></i>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="https://www.github.com/quebracho21">
+                            <i class="fab fa-github" style="color: #212121;"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/quebrachoo/">
+                            <i class="fab fa-facebook" style="color: #226cec;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="right-column">
+            <section id="experiencia">
+                <h2>Experiencia Laboral</h2>
+                <ul>
+                    <li>Junio 2023 - Actual</li>
+                    <ul>
+                        <li>Colegio Juan B. Justo (A) - Profesor de educación secundaria (Informática)</li>
+                        <li>San Miguel de Tucumán, Tucumán</li>
+                    </ul>
+                    <li>Junio 2023 - Actual</li>
+                    <ul>
+                        <li>Colegio Juan B. Justo (B) - Profesor de educación secundaria (Informática)</li>
+                        <li>San Miguel de Tucumán, Tucumán</li>
+                    </ul>
+                    <li>Marzo 2018 - Septiembre 2018</li>
+                    <ul>
+                        <li>ASOCIACION ARG. DE LOS ADVENTISTA DEL SEPTIMO DIA - Profesor de Educación Secundaria</li>
+                        <li>Tucumán</li>
+                    </ul>
+                </ul>
+            </section>
+
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Gestión de documentación y archivos.</li>
+                    <li>Manejo de sistemas informáticos y tecnológicos.</li>
+                    <li>Desarrollo de proyectos y programas.</li>
+                    <li>Mantenimiento de la base de datos y registros.</li>
+                    <li>Experto en proporcionar a los alumnos lecciones y técnicas de carácter variado para propiciar el
+                        correcto desarrollo de las aptitudes necesarias en la educación superior de cara al mundo
+                        laboral.
+                    </li>
+                    <li>Trabajo en equipo para facilitar el cumplimiento de objetivos.</li>
+                    <li>Preparación de contenidos curriculares y unidades didácticas para despertar el interés de los
+                        estudiantes.</li>
+                    <li>Abordaje de métodos de enseñanza-aprendizaje centrados en fomentar el interés del estudiante.
+                    </li>
+                    <li>Apoyo a la dirección en la implementación de estrategias de mejora del proceso de enseñanza.
+                    </li>
+                    <li>Desarrollo de actividades relacionadas con la tutoría de los alumnos.</li>
+                    <li>Reuniones de asesoramiento con padres y familiares.</li>
+                    <li>Adaptación de técnicas de enseñanza y apoyo para estudiantes con distintas capacidades y niveles
+                        de
+                        comprensión.</li>
+                </ul>
+                </ul>
+            </section>
+
+            <section id="lenguajes-programacion">
+                <h2>Lenguajes de Programacion </h2>
+                <ul>
+                    <li>HTML5, CSS3, Java Script </li>
+                    <li>C, C# , C++</li>
+                    <li>React, Node Js</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
